@@ -4,7 +4,7 @@ return [
     'sidebar_path' => 'bustracking::common.sidebar.bus',
     'url_prefix' => 'ssgroup',
     'asset_path' => 'ssgroup',
-    'middleware' => ['web','dev_mode','auth'],
+    'middleware' => ['web','dev_mode'],
     'middleware_dev_mode' => 'dev_mode',
     'dev_mode' => env('BUS_TRACKING_DEV_MODE', true),
     'googlemap_key' => env('GOOGLE_MAP_KEY', false),
