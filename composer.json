@@ -1,0 +1,30 @@
+{
+  "name": "ssgroup/bustracking",
+  "type": "labraary",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "santosh",
+      "email": "santoshdheke46@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yajra/laravel-datatables-oracle": "~9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SsGroup\\BusTracking\\BusTrackingServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "SsGroup\\BusTracking\\": "src/"
+    }
+  },
+  "files": [
+
+  ]
+}
